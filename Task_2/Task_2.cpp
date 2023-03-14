@@ -29,7 +29,7 @@ int main()
 		if (ran == 2)	// 1 to 6 for negative profit
 		{
 			int r = rand() % 500 + 0;
-			r = -r;
+			r = r - r * 2;
 			months[i] = r;
 		}
 		else // Random profit
